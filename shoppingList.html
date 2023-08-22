@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<title>Marine Mart</title>
+    <link rel="icon" href="./image/marine.jpg" type="image/icon type">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script type="text/javascript" src="list.js"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./list.css">
+</head>
+<body>
+	<div class="top">
+		<div class="main">
+			<a href="market.html"><h1 class="logo">Mm</h1>
+			<h1 class="shop">Marine Mart</h1></a>
+			<div class="size">
+			<h1>Shopping List</h1>
+			<form action="add" method="get">
+				<label>Add Item: </label> 
+				<input type="text" name="item">
+				<input id="addNeed" type="submit" value="Need">
+				<input id="addHave" type="submit" value="Have">
+			</form>
+			<h2 > Need: </h2>
+				<ul class='list'>
+					<li style="text-align: center;"> Your Needs </li>
+					<li><input type="checkbox" name="item"> Eggs <a href="#">&#10006;</a></li>
+					<li><input type="checkbox" name="item"> Bacon <a href="#">&#10006;</a></li>
+				</ul>	
+			<h2> Have: </h2>
+				<ul class='list'>
+					<li style="text-align: center;"> Bought</li>
+					<!-- <li><input type="checkbox" name="item" checked> Cream <a href="#">&#10006;</a></li> -->
+					<li><input type="checkbox" name="item" checked> Cheese <a href="#">&#10006;</a></li>
+					<!-- <li><input type="checkbox" name="item" checked> Apples <a href="#">&#10006;</a></li> -->
+				</ul>
+			</div>
+	</div>
+		
+</div>
+</body>
+</html>
+
